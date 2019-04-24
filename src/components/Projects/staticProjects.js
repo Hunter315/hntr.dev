@@ -24,7 +24,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://learnedadev.netlify.com/"
+              href="https://learned-app.now.sh"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ const StaticProjectGallery = () => {
             </a>
             <a
               className="src-btn"
-              href="https://github.com/learneda"
+              href="https://github.com/labs11-learned-1/labs11-learned1-FE"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://luncher-0311.netlify.com/"
+              href="https://epic-meitner-afa3b4.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,7 +70,7 @@ const StaticProjectGallery = () => {
             </a>
             <a
               className="src-btn"
-              href="https://github.com/build-week-luncher"
+              href="https://github.com/team-mentor-me"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,12 +94,12 @@ const StaticProjectGallery = () => {
         </div>
       </Project>
 
-      <Project>
+      {/* <Project>
         <div className="project-thumbnail">
           {/* <img
             src={require("../../_assets/img/project-lambdanotes.png")}
             alt="lambda notes website"
-          /> */}
+          /> 
         </div>
 
         <div className="project-description">
@@ -133,10 +133,10 @@ const StaticProjectGallery = () => {
             {/* <img
               src={require("../../_assets/svg/minion-1.svg")}
               alt="4 minions"
-            /> */}
+            /> 
           </div>
         </div>
-      </Project>
+      </Project> */}
     </ProjectGallery>
   );
 };

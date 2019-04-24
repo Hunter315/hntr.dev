@@ -11,7 +11,7 @@ const Projects = () => {
         Here are a few selections of my work as a web developer. You can view my
         other small projects{" "}
         <a
-          href="https://github.com/jsmnglng"
+          href="https://github.com/Hunter315"
           target="_blank"
           rel="noopener noreferrer"
         >

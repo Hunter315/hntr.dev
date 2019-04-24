@@ -140,8 +140,9 @@ export const Project = styled.section`
         }
       }
       /* View button */
+      /*
       .app-btn {
-        ${buttonDark}
+       
         padding-left: 3.8rem;
         padding-right: 3.8rem;
         @media (max-width: 755px) {
@@ -150,11 +151,12 @@ export const Project = styled.section`
       }
       /* Source button */
       .src-btn {
-        ${buttonLight}
+        
         @media (max-width: 755px) {
           padding: 0.5rem 1.8rem;
         }
       }
+      
     }
     /* minions illustrations */
     .minions {
