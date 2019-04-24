@@ -54,9 +54,7 @@ const StaticProjectGallery = () => {
           <h3>TEAM</h3>
           <h2>Mentor Me</h2>
           <p className="long-description">
-            A revolutionary tool to connect schools directly to donors who
-            provided funds, helping remove barriers stopping children in need of
-            healthy lunches.
+           A web app built in one week to provide entrepreneurs a platform to ask questions to experienced business owners.
           </p>
 
           <div className="btn-group">

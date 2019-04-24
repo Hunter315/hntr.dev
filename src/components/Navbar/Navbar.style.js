@@ -16,9 +16,9 @@ export const NavContainer = styled.div`
 `;
 
 export const NavWrapper = styled.div`
-  ${wrapper("80%", "0 auto")}
+  ${wrapper("60%", "0")}
   ${flex("space-between", "center")}
-  padding: 1rem 0;
+  padding: 1rem 20%;
 `;
 
 export const NavBrand = styled.a`

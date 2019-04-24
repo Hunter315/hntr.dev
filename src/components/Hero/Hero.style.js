@@ -26,6 +26,7 @@ export const HeroContainer = styled.section`
     width: 100%;
     height: 300px;
     background-color: transparent;
+    z-index: 5;
     background-image:
     linear-gradient(transparent, #151218)
   }
