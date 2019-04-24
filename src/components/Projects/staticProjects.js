@@ -43,7 +43,7 @@ const StaticProjectGallery = () => {
           <div className="minions">
             {/* <img
               src={require("../../_assets/svg/minion-4.svg")}
-              alt="4 minions"
+              alt=""
             /> */}
           </div>
         </div>
