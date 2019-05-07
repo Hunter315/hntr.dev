@@ -17,9 +17,22 @@ export const HeroContainer = styled.section`
     
   }
   .grit {
-    
+    right:40%;
+    @media (max-width: 970px) {
+      right: 10%;
+    }
    
   }
+
+  .shadow {
+    right:40%;
+
+    @media (max-width: 970px) {
+     right: 10%; 
+    }
+   
+  }
+
   .gradient{
     position: absolute;
     bottom: 0;

@@ -11,7 +11,7 @@ export const NavContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 99;
   transition: 150ms ease-in;
 `;
 
