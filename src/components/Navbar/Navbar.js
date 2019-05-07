@@ -44,7 +44,7 @@ class Navbar extends Component {
             <ul>
               <li className="page-links">
                 <Link
-                  activeClass="active"
+                  activeClass="active home"
                   to="home"
                   spy={true}
                   smooth={true}

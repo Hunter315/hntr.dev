@@ -22,7 +22,6 @@ export const NavWrapper = styled.div`
 `;
 
 export const NavBrand = styled.a`
-
   img {
     width: 4.5rem;
     height: auto;

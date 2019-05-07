@@ -46,7 +46,8 @@ export const ProjectGallery = styled.div`
 
 export const Project = styled.section`
   ${flex()}
-  margin-bottom: 10rem;
+  align-items: center;
+  /* margin-bottom: 10rem; */
   /* screenshot of the project application */
   .project-thumbnail {
     width: 50%;
@@ -161,6 +162,7 @@ export const Project = styled.section`
     }
     /* minions illustrations */
     .minions {
+      margin-top: 5rem;
       text-align: right;
       img {
         width: 65%;

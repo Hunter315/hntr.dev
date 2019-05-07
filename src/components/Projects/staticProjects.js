@@ -77,49 +77,40 @@ const StaticProjectGallery = () => {
           </div>
 
           <div className="minions">
-            {/* <img
-              src={require("../../_assets/svg/minion-3.svg")}
-              alt="4 minions"
-            /> */}
+            <img
+              src={require("../../assets/img/undraw_learning_2q1h.svg")}
+              alt="learning"
+            />
           </div>
         </div>
 
         <div className="project-thumbnail inverted-thumbnail">
-          {/* <img
-            src={require("../../_assets/img/project-luncher.png")}
-            alt="luncher website"
-          /> */}
+          <img
+            src={require("../../assets/img/MentorMe.PNG")}
+            alt="Mentor Me Website"
+          />
         </div>
       </Project>
 
-      {/* <Project>
+       <Project>
         <div className="project-thumbnail">
-          {/* <img
-            src={require("../../_assets/img/project-lambdanotes.png")}
-            alt="lambda notes website"
+           <img
+            src={require("../../assets/img/React-Native-Expo.jpg")}
+            alt="React Native + Expo"
           /> 
         </div>
 
         <div className="project-description">
-          <h3>PERSONAL</h3>
-          <h2>Lambda Notes</h2>
+          <h3>INDEPENDENT</h3>
+          <h2>aposDate</h2>
           <p>
-            A simple note-taking web application that lets a user create,
-            update, delete and display notes.
+           A React Native + Expo CLI dating app to connect post-religious users.
           </p>
 
           <div className="btn-group">
             <a
-              className="app-btn"
-              href="https://ls-notes.netlify.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              view
-            </a>
-            <a
               className="src-btn"
-              href="https://github.com/jsmnglng/front-end-project-week"
+              href="https://github.com/Hunter315/aposDate"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -128,13 +119,13 @@ const StaticProjectGallery = () => {
           </div>
 
           <div className="minions">
-            {/* <img
-              src={require("../../_assets/svg/minion-1.svg")}
-              alt="4 minions"
+             <img
+              src={require("../../assets/img/undraw_intense_feeling_ft9s.svg")}
+              alt="intense feeling"
             /> 
           </div>
         </div>
-      </Project> */}
+      </Project> 
     </ProjectGallery>
   );
 };
