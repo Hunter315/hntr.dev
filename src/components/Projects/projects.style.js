@@ -10,7 +10,8 @@ import {
 } from "../../styles/variables.style";
 
 export const ProjectContainer = styled.section`
-  padding-top: 8rem;
+padding: 0 50px 0 50px;
+  background: #151218;
   h1 {
     margin-bottom: 3rem;
     ${headingStyle}

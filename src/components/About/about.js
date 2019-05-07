@@ -19,6 +19,7 @@ const About = () => {
             href="https://lambdaschool.com"
             target="_blank"
             rel="noopener noreferrer"
+            style={{textDecorationColor:"#44141C"}}
           > 
        <img
           src={require("../../assets/img/LambdaSchoolLogo.png")}

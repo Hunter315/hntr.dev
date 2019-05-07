@@ -8,10 +8,10 @@ const StaticProjectGallery = () => {
     <ProjectGallery>
       <Project>
         <div className="project-thumbnail">
-          {/* <img
-            src={require("../../_assets/img/project-learnlocker.png")}
+          <img
+            src={require("../../assets/img/EruditionMain.PNG")}
             alt="erudition website"
-          /> */}
+          />
         </div>
 
         <div className="project-description">

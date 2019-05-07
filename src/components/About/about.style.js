@@ -18,10 +18,12 @@ export const AboutContainer = styled.section`
 `;
 
 export const AboutHeadline = styled.div`
+width: 50%;
   @media (max-width: 650px) {
     width: 100%;
   }
   h1 {
+    margin: 0;
     ${headingStyle}
   }
   p {
@@ -31,10 +33,10 @@ export const AboutHeadline = styled.div`
   .main-headline {
     margin-bottom: 5rem;
     font-size: 2.5rem;
-    line-height: 6rem;
+    line-height: 4rem;
     @media (max-width: 1200px) {
-      font-size: 3rem;
-      line-height: 5rem;
+      font-size: 2.5rem;
+      line-height: 4rem;
     }
     @media (max-width: 885px) {
       font-size: 2.5rem;
@@ -51,13 +53,14 @@ export const AboutHeadline = styled.div`
 
 export const AboutImage = styled.div`
   width: 50%;
-  text-align: right;
+  text-align: center;
   @media (max-width: 650px) {
     display: none;
   }
   img {
-    width: 100%;
+    width: 60%;
     height: auto;
+    border-radius:50%;
   }
   .secondary-headline {
     font-size: 1.8rem;

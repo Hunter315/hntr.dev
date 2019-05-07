@@ -5,11 +5,11 @@ import { ProjectContainer } from "./projects.style";
 
 const Projects = () => {
   return (
+    <div style={{display:"flex"}}>
     <ProjectContainer id="projects">
-      <h1>Projects.</h1>
+      <h1>Projects</h1>
       <p>
-        Here are a few selections of my work as a web developer. You can view my
-        other small projects{" "}
+        Here are a few of my projects that I have worked on. You can check out all of my work{" "}
         <a
           href="https://github.com/Hunter315"
           target="_blank"
@@ -22,6 +22,7 @@ const Projects = () => {
 
       <StaticProjectGallery />
     </ProjectContainer>
+    </div>
   );
 };
 
