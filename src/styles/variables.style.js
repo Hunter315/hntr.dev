@@ -20,27 +20,27 @@ text-shadow: rgba(0, 0, 0, 0.56) 0px 13px 7px;
 `;
 
 export const buttonLight = `
-border: 2px solid ${redRegular};
+border: 2px solid #3D1219;
 border-radius: 3rem;
 padding: 1.5rem 2.5rem;
 background-color: ${whiteRegular};
-color: ${redRegular};
+color: #3D1219;
 &:hover {
-  border-color: ${redRegular};
-  background-color: ${redLight};
-  color: ${redRegular};
+  border-color: #3D1219;
+  background-color: #747475;
+  color: #3D1219;
 }
 `;
 
 export const buttonDark = `
-border: 2px solid ${redRegular};
+border: 2px solid #3D1219;
 border-radius: 3rem;
 padding: 1.5rem 2.5rem;
-background-color: ${redRegular};
+background-color: #3D1219;
 color: ${whiteRegular};
 &:hover {
-  border-color: ${redRegular};
-  background-color: ${redLight};
-  color: ${redRegular};
+  border-color: #3D1219;
+  background-color: #747475;
+  color: #3D1219;
 }
 `;

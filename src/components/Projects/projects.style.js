@@ -30,11 +30,11 @@ padding: 0 50px 0 50px;
       line-height: 3rem;
     }
     a {
-      border-bottom: 0.1rem solid ${blackLight};
+      color: #747475;
       transition: 150ms ease-in;
       &:hover {
-        border-bottom: 0.1rem solid ${redRegular};
-        color: ${redRegular};
+        border-bottom: 0.1rem solid white;
+        color: white;
       }
     }
   }
@@ -63,6 +63,7 @@ export const Project = styled.section`
     text-align: right;
   }
   .project-description {
+   
     width: 50%;
     padding: 0.5rem 0;
     @media (max-width: 610px) {
@@ -70,6 +71,7 @@ export const Project = styled.section`
     }
     /* project team category */
     h3 {
+      margin-bottom:0;
       font-size: 1.8rem;
       letter-spacing: 0.2rem;
       line-height: 2.5rem;
@@ -87,6 +89,7 @@ export const Project = styled.section`
     }
     /* project title */
     h2 {
+      margin-top:0;
       margin-bottom: 3rem;
       font-size: 3.5rem;
       font-weight: 700;
@@ -101,17 +104,13 @@ export const Project = styled.section`
       font-size: 1.8rem;
       line-height: 3rem;
       color: ${blackLight};
-      height: 8rem;
       margin-bottom: 3.5rem;
       @media (max-width: 1066px) {
-        height: 12rem;
       }
       @media (max-width: 610px) {
-        height: 8rem;
       }
       @media (max-width: 390px) {
-        height: 11rem;
-      }
+w      }
     }
     .long-description {
       height: 11rem;
@@ -128,8 +127,25 @@ export const Project = styled.section`
         height: 16rem;
       }
     }
-    .btn-group {
+
+    .long-description2 {
+      width: 50%;
+      margin: 0;
+      @media (max-width: 1111px) {
+      }
+      @media (max-width: 610px) {
+      }
+      @media (max-width: 444px) {
+      }
+      @media (max-width: 345px) {
+      }
+    }
+
+
+
+    .btn-group2 {
       position: relative;
+      margin-top: 3rem;
       font-size: 1.4rem;
       text-transform: uppercase;
       letter-spacing: 0.3rem;
@@ -141,10 +157,12 @@ export const Project = styled.section`
           margin-right: 2rem;
         }
       }
+
+      
       /* View button */
-      /*
+      
       .app-btn {
-       
+       ${buttonDark}
         padding-left: 3.8rem;
         padding-right: 3.8rem;
         @media (max-width: 755px) {
@@ -153,7 +171,46 @@ export const Project = styled.section`
       }
       /* Source button */
       .src-btn {
-        
+        ${buttonLight}
+        @media (max-width: 755px) {
+          padding: 0.5rem 1.8rem;
+        }
+      }
+      
+    }
+    
+  
+    .btn-group {
+      display:flex;
+      justify-content: flex-end;
+      position: relative;
+      margin-top: 3rem;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+      z-index: 1;
+      a {
+        margin-right: 3rem;
+        transition: 150ms ease-in;
+        @media (max-width: 755px) {
+          margin-right: 2rem;
+        }
+      }
+
+      
+      /* View button */
+      
+      .app-btn {
+       ${buttonDark}
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        @media (max-width: 755px) {
+          padding: 0.5rem 2.8rem;
+        }
+      }
+      /* Source button */
+      .src-btn {
+        ${buttonLight}
         @media (max-width: 755px) {
           padding: 0.5rem 1.8rem;
         }
@@ -163,11 +220,17 @@ export const Project = styled.section`
     /* minions illustrations */
     .minions {
       margin-top: 5rem;
-      text-align: right;
+      text-align: center;
       img {
         width: 65%;
         height: auto;
       }
+      @media (max-width: 610px) {
+        display: none;
+      }
     }
   }
+  .mentor{
+    width: 100%;
+  } 
 `;

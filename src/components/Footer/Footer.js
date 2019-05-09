@@ -6,14 +6,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper>
         <div className="footer-links">
-          <nav>
-            {/* <a
-              href="https://twitter.com/jsmnglng"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a> */}
+          <nav style={{display: "flex", justifyContent: "space-around"}}>
 
             <a
               href="https://www.linkedin.com/in/huntermsmith/"

@@ -14,11 +14,12 @@ const StaticProjectGallery = () => {
           />
         </div>
 
-        <div className="project-description">
+        <div className="project-description erudition">
           <h3>TEAM</h3>
           <h2>Erudition</h2>
           <p>
-            A social web application that allows users to store their favorite articles, blogs, and online courses in one place. 
+            A social web application that allows users to store their favorite
+            articles, blogs, and online courses in one place.
           </p>
 
           <div className="btn-group">
@@ -50,14 +51,27 @@ const StaticProjectGallery = () => {
       </Project>
 
       <Project>
-        <div className="project-description">
+        <div className="project-description mentor">
           <h3>TEAM</h3>
           <h2>Mentor Me</h2>
-          <p className="long-description">
-           A web app built in one week to provide entrepreneurs a platform to ask questions to experienced business owners.
-          </p>
 
-          <div className="btn-group">
+          <div style={{ display: "flex", flexDirection: "row" }}>
+            <p
+              className="long-description2"
+              style={{  }}
+            >
+              A web app built in one week to provide entrepreneurs a platform to
+              ask questions to experienced business owners.
+            </p>
+            <div className="project-thumbnail inverted-thumbnail">
+              <img
+                src={require("../../assets/img/MentorMe.PNG")}
+                alt="Mentor Me Website"
+              />
+            </div>
+          </div>
+
+          <div className="btn-group2">
             <a
               className="app-btn"
               href="https://epic-meitner-afa3b4.netlify.com/"
@@ -83,30 +97,26 @@ const StaticProjectGallery = () => {
             />
           </div>
         </div>
-
-        <div className="project-thumbnail inverted-thumbnail">
-          <img
-            src={require("../../assets/img/MentorMe.PNG")}
-            alt="Mentor Me Website"
-          />
-        </div>
       </Project>
 
-       <Project>
-        <div className="project-thumbnail">
-           <img
-            src={require("../../assets/img/React-Native-Expo.jpg")}
-            alt="React Native + Expo"
-          /> 
-        </div>
-
-        <div className="project-description">
+      <Project>
+      <div className="project-thumbnail">
+              <img
+                src={require("../../assets/img/React-Native-Expo.jpg")}
+                alt="React Native + Expo"
+              />
+      </div>
+        <div className="project-description erudition">
           <h3>INDEPENDENT</h3>
           <h2>aposDate</h2>
-          <p>
-           A React Native + Expo CLI dating app to connect post-religious users.
-          </p>
 
+           
+            <p className="pClass">
+              A React Native + Expo CLI dating app to connect post-religious
+              users.
+            </p>
+          
+        
           <div className="btn-group">
             <a
               className="src-btn"
@@ -119,13 +129,13 @@ const StaticProjectGallery = () => {
           </div>
 
           <div className="minions">
-             <img
+            <img
               src={require("../../assets/img/undraw_intense_feeling_ft9s.svg")}
               alt="intense feeling"
-            /> 
+            />
           </div>
         </div>
-      </Project> 
+      </Project>
     </ProjectGallery>
   );
 };

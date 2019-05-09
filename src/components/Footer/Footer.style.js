@@ -8,11 +8,12 @@ import {
 
 export const FooterContainer = styled.footer`
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+  background: #3D1219;
 `;
 
 export const FooterWrapper = styled.div`
   ${wrapper("80%", "0 auto")}
-  ${flex("space-between", "center")}
+  ${flex("space-around", "center")}
   padding: 2rem 0;
   color: ${blackLight};
   @media (max-width: 680px) {
@@ -41,14 +42,14 @@ export const FooterWrapper = styled.div`
         margin: 2rem 0;
       }
       a {
-        width: 40%;
+        
         letter-spacing: 0.04rem;
         color: ${blackLight};
         @media (max-width: 588px) {
           margin-bottom: 2rem;
         }
         &:hover {
-          color: ${redRegular};
+          color: white;
         }
       }
     }
@@ -61,7 +62,7 @@ export const FooterWrapper = styled.div`
     a {
       color: ${redLight};
       &:hover {
-        color: ${redRegular};
+        color: white;
       }
     }
   }
