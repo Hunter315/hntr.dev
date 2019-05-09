@@ -60,7 +60,7 @@ export const FooterWrapper = styled.div`
       margin-bottom: 1.5rem;
     }
     a {
-      color: ${redLight};
+      color: #575A89;
       &:hover {
         color: white;
       }
