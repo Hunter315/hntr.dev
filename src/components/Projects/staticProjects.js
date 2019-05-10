@@ -74,7 +74,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group2">
             <a
               className="app-btn"
-              href="https://epic-meitner-afa3b4.netlify.com/"
+              href="https://team-mentor-me.github.io/mentor-me-landing/"
               target="_blank"
               rel="noopener noreferrer"
             >
