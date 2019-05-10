@@ -18,7 +18,7 @@ const StaticProjectGallery = () => {
           <h3>TEAM</h3>
           <h2>Erudition</h2>
           <p>
-            A social web application that allows users to store their favorite
+            Lead Engineer - A social web application that allows users to store their favorite
             articles, blogs, and online courses in one place.
           </p>
 
@@ -60,7 +60,7 @@ const StaticProjectGallery = () => {
               className="long-description2"
               style={{  }}
             >
-              A web app built in one week to provide entrepreneurs a platform to
+              Team Lead - A web app built in one week to provide entrepreneurs a platform to
               ask questions to experienced business owners.
             </p>
             <div className="project-thumbnail inverted-thumbnail">
