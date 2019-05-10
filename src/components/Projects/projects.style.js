@@ -9,6 +9,9 @@ import {
   buttonLight
 } from "../../styles/variables.style";
 
+export const FlexWrap = styled.div`
+display:flex;
+`;
 export const ProjectContainer = styled.section`
 padding: 0 50px 0 50px;
   background: #151218;
@@ -29,6 +32,10 @@ padding: 0 50px 0 50px;
       font-size: 2rem;
       line-height: 3rem;
     }
+    @media (max-width: 450px) {
+     width: 80%;
+    }
+    
     a {
       color: #747475;
       transition: 150ms ease-in;
@@ -109,8 +116,7 @@ export const Project = styled.section`
       }
       @media (max-width: 610px) {
       }
-      @media (max-width: 390px) {
-w      }
+      @media (max-width: 390px) {     }
     }
     .long-description {
       height: 11rem;
@@ -135,7 +141,8 @@ w      }
       }
       @media (max-width: 610px) {
       }
-      @media (max-width: 444px) {
+      @media (max-width: 450px) {
+        width: 100%
       }
       @media (max-width: 345px) {
       }
@@ -150,12 +157,18 @@ w      }
       text-transform: uppercase;
       letter-spacing: 0.3rem;
       z-index: 1;
+      @media (max-width: 450px) {
+        display:flex;
+        flex-flow: column;
+        
+       }
       a {
         margin-right: 3rem;
         transition: 150ms ease-in;
         @media (max-width: 755px) {
           margin-right: 2rem;
         }
+        
       }
 
       
@@ -163,15 +176,20 @@ w      }
       
       .app-btn {
        ${buttonDark}
+       text-align: center;
         padding-left: 3.8rem;
         padding-right: 3.8rem;
         @media (max-width: 755px) {
           padding: 0.5rem 2.8rem;
         }
+        @media (max-width: 450px) {
+          margin-bottom: 1rem;
+         }
       }
       /* Source button */
       .src-btn {
         ${buttonLight}
+        text-align:center
         @media (max-width: 755px) {
           padding: 0.5rem 1.8rem;
         }
@@ -189,12 +207,18 @@ w      }
       text-transform: uppercase;
       letter-spacing: 0.3rem;
       z-index: 1;
+      @media (max-width: 450px) {
+        display:flex;
+        flex-flow: column;
+        
+       }
       a {
         margin-right: 3rem;
         transition: 150ms ease-in;
         @media (max-width: 755px) {
           margin-right: 2rem;
         }
+       
       }
 
       
@@ -204,13 +228,18 @@ w      }
        ${buttonDark}
         padding-left: 3.8rem;
         padding-right: 3.8rem;
+        text-align: center;
         @media (max-width: 755px) {
           padding: 0.5rem 2.8rem;
         }
+        @media (max-width: 450px) {
+          margin-bottom: 1rem;
+         }
       }
       /* Source button */
       .src-btn {
         ${buttonLight}
+        text-align: center;
         @media (max-width: 755px) {
           padding: 0.5rem 1.8rem;
         }

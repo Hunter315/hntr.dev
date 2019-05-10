@@ -1,11 +1,11 @@
 import React from "react";
 import StaticProjectGallery from "./staticProjects";
 
-import { ProjectContainer } from "./projects.style";
+import { ProjectContainer, FlexWrap } from "./projects.style";
 
 const Projects = () => {
   return (
-    <div style={{display:"flex"}}>
+    <FlexWrap>
     <ProjectContainer id="projects">
       <h1>Projects</h1>
       <p>
@@ -22,7 +22,7 @@ const Projects = () => {
 
       <StaticProjectGallery />
     </ProjectContainer>
-    </div>
+    </FlexWrap>
   );
 };
 

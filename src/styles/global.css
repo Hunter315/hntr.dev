@@ -13,6 +13,9 @@
 
 html {
   font-size: var(--default-font-size);
+  @media (max-width: 450px) {
+    background: #151218;
+  }
 }
 
 body {
