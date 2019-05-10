@@ -8,7 +8,7 @@ export const whiteRegular = "#fff";
 export const headingStyle = `
 font-size: 3rem;
 font-weight: 700;
-color: #747475;
+color: white;
 text-transform: uppercase;
 text-shadow: rgba(0, 0, 0, 0.56) 0px 13px 7px;
 @media (max-width: 885px) {

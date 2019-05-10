@@ -26,11 +26,57 @@ width: 50%;
     margin: 0;
     ${headingStyle}
   }
+  .ul-list {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    li{
+      position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: 1em 0;
+    width:86px;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out; 
+    }
+    li:hover{
+      background: #eee;
+    }
+    li:hover:before{
+      transform: rotate(360deg);
+    }
+    li:before{
+      content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #3D1219;
+    height: 2em;
+    color: white;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    }
+  }
   p {
     color: ${blackRegular};
     letter-spacing: 0.05rem;
   }
   .main-headline {
+    color: #ddd;
     margin-bottom: 5rem;
     font-size: 2.5rem;
     line-height: 4rem;

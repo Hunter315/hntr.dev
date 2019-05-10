@@ -91,10 +91,10 @@ const StaticProjectGallery = () => {
           </div>
 
           <div className="minions">
-            <img
+            {/* <img
               src={require("../../assets/img/undraw_learning_2q1h.svg")}
               alt="learning"
-            />
+            /> */}
           </div>
         </div>
       </Project>
@@ -129,10 +129,10 @@ const StaticProjectGallery = () => {
           </div>
 
           <div className="minions">
-            <img
+            {/* <img
               src={require("../../assets/img/undraw_intense_feeling_ft9s.svg")}
               alt="intense feeling"
-            />
+            /> */}
           </div>
         </div>
       </Project>

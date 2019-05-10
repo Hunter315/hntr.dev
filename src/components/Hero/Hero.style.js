@@ -14,6 +14,7 @@ export const HeroContainer = styled.section`
     height: 100vh;
     width: 100vw;
     text-align: center;
+    background: rgb(61, 18, 25);
     
   }
   .grit {

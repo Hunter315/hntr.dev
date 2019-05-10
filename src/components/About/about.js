@@ -8,8 +8,21 @@ const About = () => {
         <h1>About Me</h1>
         <div style={{display: "flex"}}>
         <p className="main-headline">
-          I am Hunter Smith - I create ideas and solve problems with Javascript
+          I am Hunter Smith - I create ideas and solve problems.
         </p>
+        <ul className="ul-list">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>React Native</li>
+          <li>Redux</li>
+          <li>NextJs</li>
+          <li>NodeJs</li>
+          <li>Express</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>SQL</li>
+          <li>Firebase</li>
+        </ul>
         
         </div>
       </AboutHeadline>
