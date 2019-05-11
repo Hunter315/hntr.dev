@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { flex } from "../../styles/mixins.style";
 import {
-  redRegular,
+  aquaRegular,
   blackRegular,
   blackLight,
   headingStyle
@@ -140,8 +140,8 @@ export const AboutImage = styled.div`
       color: ${blackLight};
       transition: 150ms ease-in;
       &:hover {
-        border-bottom: 0.1rem solid ${redRegular};
-        color: ${redRegular};
+        border-bottom: 0.1rem solid ${aquaRegular};
+        color: ${aquaRegular};
       }
     }
 `;

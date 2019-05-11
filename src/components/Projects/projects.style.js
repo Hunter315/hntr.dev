@@ -3,10 +3,11 @@ import { flex } from "../../styles/mixins.style";
 import {
   blackRegular,
   blackLight,
-  redRegular,
+  aquaRegular,
   headingStyle,
   buttonDark,
-  buttonLight
+  buttonLight,
+  aquaDark
 } from "../../styles/variables.style";
 
 export const FlexWrap = styled.div`
@@ -37,7 +38,7 @@ padding: 0 50px 0 50px;
     }
     
     a {
-      color: #747475;
+      color: ${aquaRegular};
       transition: 150ms ease-in;
       &:hover {
         border-bottom: 0.1rem solid white;
@@ -100,7 +101,7 @@ export const Project = styled.section`
       margin-bottom: 3rem;
       font-size: 3.5rem;
       font-weight: 700;
-      color: ${blackRegular};
+      color: ${aquaDark};
       @media (max-width: 755px) {
         font-size: 2.5rem;
         line-height: 3rem;

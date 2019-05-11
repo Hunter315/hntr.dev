@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { flex, wrapper } from "../../styles/mixins.style";
 import {
   blackLight,
-  redRegular,
-  redLight
+  aquaRegular,
+  redLight,
+  aquaDark
 } from "../../styles/variables.style";
 
 export const FooterContainer = styled.footer`
@@ -60,7 +61,7 @@ export const FooterWrapper = styled.div`
       margin-bottom: 1.5rem;
     }
     a {
-      color: #575A89;
+      color: ${aquaDark};
       &:hover {
         color: white;
       }

@@ -1,9 +1,10 @@
-export const redRegular = "#ff635b";
+export const aquaRegular = "#2fefbc";
 export const redLight = "#ff9c96";
 export const redDark = "#ff2c1f";
 export const blackRegular = "#333";
 export const blackLight = "#bcbac1";
 export const whiteRegular = "#fff";
+export const aquaDark = "#25b28c";
 
 export const headingStyle = `
 font-size: 3rem;
