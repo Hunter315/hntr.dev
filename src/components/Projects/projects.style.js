@@ -21,7 +21,7 @@ padding: 0 50px 0 50px;
   }
   p {
     font-size: 2.5rem;
-    color: ${blackRegular};
+    color: #bcbac1;
     letter-spacing: 0.05rem;
     line-height: 3.5rem;
     @media (max-width: 755px) {

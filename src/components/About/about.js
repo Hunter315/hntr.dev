@@ -6,9 +6,9 @@ const About = () => {
     <AboutContainer id="about">
       <AboutHeadline>
         <h1>About Me</h1>
-        <div style={{display: "flex"}}>
+        <div style={{display: "flex", flexFlow: "column"}}>
         <p className="main-headline">
-          I am Hunter Smith - I create ideas and solve problems.
+          I'm Hunter Smith - I create ideas and solve problems. I enjoy programming both the frontend and backend of applications. Check out my projects and see what I've learned at Lambda School!
         </p>
         <ul className="ul-list">
           <li>JavaScript</li>

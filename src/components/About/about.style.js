@@ -12,13 +12,21 @@ export const AboutContainer = styled.section`
   height: 80vh;
   background: #151218;
   padding: 100px 50px 0 50px;
-  @media (max-width: 700px) {
-    height: 100vh;
+  @media (max-width: 800px) {
+    height: auto;
+    padding: 50px 50px 0 50px;
+  }
+  @media (max-width: 650px) {
+    height: auto;
+    padding: 100px 50px 0 50px;
   }
 `;
 
 export const AboutHeadline = styled.div`
 width: 50%;
+@media (max-width: 800px) {
+  
+}
   @media (max-width: 650px) {
     width: 100%;
   }
@@ -27,6 +35,11 @@ width: 50%;
     ${headingStyle}
   }
   .ul-list {
+    display: flex;
+    flex-flow: column wrap;
+    height: 260px;
+    
+    box-sizing: border-box;
     counter-reset: li; /* Initiate a counter */
     list-style: none; /* Remove default numbering */
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
@@ -34,12 +47,15 @@ width: 50%;
     padding: 0;
     margin-bottom: 4em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    @media (max-width: 800px) {
+      height:347px;
+    }
     li{
       position: relative;
     display: block;
     padding: .4em .4em .4em 2em;
     *padding: .4em;
-    margin: 1em 0;
+    margin: .9rem 0;
     width:86px;
     background: #ddd;
     color: #444;
@@ -76,21 +92,21 @@ width: 50%;
     letter-spacing: 0.05rem;
   }
   .main-headline {
-    color: #ddd;
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
-    line-height: 4rem;
+    color: #bcbac1;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
     @media (max-width: 1200px) {
-      font-size: 2.5rem;
-      line-height: 4rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
     }
     @media (max-width: 885px) {
-      font-size: 2.5rem;
-      line-height: 4rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
     }
     @media (max-width: 711px) {
-      font-size: 2rem;
-      line-height: 3rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
     }
   }
   
