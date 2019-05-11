@@ -48,7 +48,7 @@ width: 50%;
     margin-bottom: 4em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     @media (max-width: 800px) {
-      height:347px;
+      height: 370px;
     }
     li{
       position: relative;
