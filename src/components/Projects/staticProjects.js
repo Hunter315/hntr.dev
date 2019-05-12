@@ -17,8 +17,9 @@ const StaticProjectGallery = () => {
         <div className="project-description erudition">
           <h3>TEAM</h3>
           <h2>Erudition</h2>
+          <h4>Lead Engineer + Backend Engineer</h4>
           <p>
-            Lead Engineer - A social web application that allows users to store their favorite
+           A social web application that allows users to store their favorite
             articles, blogs, and online courses in one place.
           </p>
 

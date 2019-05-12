@@ -8,7 +8,7 @@ const About = () => {
         <h1>About Me</h1>
         <div style={{display: "flex", flexFlow: "column"}}>
         <p className="main-headline">
-          I'm Hunter Smith - I create ideas and solve problems. I enjoy programming both the frontend and backend of applications. Check out my projects and see what I've learned at Lambda School!
+          I'm Hunter Smith - I create ideas and solve problems. I enjoy programming both the frontend and backend of applications. Check out my projects and see what I can do!
         </p>
         <ul className="ul-list">
           <li>JavaScript</li>
