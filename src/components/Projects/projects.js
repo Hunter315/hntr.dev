@@ -9,7 +9,7 @@ const Projects = () => {
     <ProjectContainer id="projects">
       <h1>Projects</h1>
       <p>
-        Here are a few of my projects that I have worked on. You can check out all of my work{" "}
+        Here are a few of my projects. You can check out all of my work{" "}
         <a
           href="https://github.com/Hunter315"
           target="_blank"
