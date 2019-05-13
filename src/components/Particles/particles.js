@@ -189,7 +189,7 @@ class Particles extends React.Component {
             placeholder="Type something here!"
             ref="copy"
           />
-          <p style={{ display: "inline-block", fontSize: "1.3rem", color: "#bcbac1", maxWidth: "632px", lineHeight: "1.8rem"}}>
+          <p style={{ display: "inline-block", fontSize: "1.3rem", color: "#bcbac1", maxWidth: "632px", lineHeight: "1.8rem", userSelect: "none"}}>
           I'm Hunter Smith - I create ideas and solve problems.<br />Check out my projects below and see what I can do!
           
           </p>
