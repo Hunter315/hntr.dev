@@ -46,7 +46,8 @@ class Particles extends React.Component {
       this.vy = (Math.random() - 0.5) * 20;
       this.accX = 0;
       this.accY = 0;
-      this.friction = Math.random() * 0.0005 + 0.94;
+      this.friction = Math.random() * 0.0009 + 0.94; // *.001 for original effect
+      
 
       this.color = colors[Math.floor(Math.random() * 6)];
     }
