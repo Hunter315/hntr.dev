@@ -8,7 +8,7 @@ const About = () => {
         <h1>About Me</h1>
         <div style={{display: "flex", flexFlow: "column"}}>
         <p className="main-headline">
-          I'm Hunter Smith - I create ideas and solve problems. I enjoy programming both the frontend and backend of applications. Check out my projects and see what I can do!
+         I enjoy programming both the frontend and backend of applications. I am a Lambda School Graduate and have experience building real-world applications. Here are just a few of the tools that I have enjoyed using in my projects. I am always striving to learn and use more!
         </p>
         <ul className="ul-list">
           <li>JavaScript</li>
@@ -32,7 +32,7 @@ const About = () => {
             href="https://lambdaschool.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{textDecorationColor:"#44141C"}}
+            style={{textDecoration:"none"}}
           > 
        <img
           src={require("../../assets/img/LambdaSchoolLogo.png")}

@@ -66,9 +66,7 @@ width: 50%;
     li:hover{
       background: #eee;
     }
-    li:hover:before{
-      transform: rotate(360deg);
-    }
+    
     li:before{
       content: counter(li);
     counter-increment: li;
@@ -123,11 +121,17 @@ export const AboutImage = styled.div`
     width: 60%;
     height: auto;
     border-radius:50%;
+    &:hover {
+      opacity: 0.7;
+    }
   }
   .secondary-headline {
     font-size: 1.8rem;
     line-height: 4rem;
     color: ${blackLight};
+    &:hover {
+      opacity: 0.5;
+    }
     @media (max-width: 1200px) {
       font-size: 1.6rem;
       line-height: 3rem;

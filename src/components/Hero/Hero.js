@@ -20,10 +20,17 @@ const Hero = () => {
           offset={-70}
           duration={500}
         >
-          {/* <img
-            src={require("../../_assets/img/down-arrow.png")}
+        <div style={{display:"flex", justifyContent:"center"}}>
+          <img
+            src={require("../../assets/img/white-down-arrow-png-2.png")}
             alt="down arrow"
-          /> */}
+          />
+          <img
+            src={require("../../assets/img/white-down-arrow-png-2.png")}
+            alt="down arrow"
+            style={{bottom:"3rem"}}
+          />
+        </div>
         </Link>
       </div>
       <div className="gradient" >

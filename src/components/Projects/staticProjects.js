@@ -8,10 +8,18 @@ const StaticProjectGallery = () => {
     <ProjectGallery>
       <Project>
         <div className="project-thumbnail">
-          <img
+        <a
+              className="app-btn"
+              href="https://learned-app.now.sh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             <img
             src={require("../../assets/img/EruditionMain.PNG")}
             alt="erudition website"
           />
+            </a>
+          
         </div>
 
         <div className="project-description erudition">
@@ -55,20 +63,28 @@ const StaticProjectGallery = () => {
         <div className="project-description mentor">
           <h3>TEAM</h3>
           <h2>Mentor Me</h2>
-
+          <h4>Team Lead</h4>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p
               className="long-description2"
-              style={{  }}
+             
             >
-              Team Lead - A web app built in one week to provide entrepreneurs a platform to
-              ask questions to experienced business owners.
+              A web app built in one week to provide entrepreneurs a platform to
+              ask questions to experienced business owners. I led a team of 4 developers in a 1-week hackathon to create this app.
             </p>
             <div className="project-thumbnail inverted-thumbnail">
+            <a
+              className="app-btn"
+              href="https://team-mentor-me.github.io/mentor-me-landing/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={require("../../assets/img/MentorMe.PNG")}
                 alt="Mentor Me Website"
               />
+            </a>
+              
             </div>
           </div>
 
@@ -102,10 +118,18 @@ const StaticProjectGallery = () => {
 
       <Project>
       <div className="project-thumbnail">
+      <a
+              className="src-btn"
+              href="https://github.com/Hunter315/aposDate"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={require("../../assets/img/React-Native-Expo.jpg")}
                 alt="React Native + Expo"
               />
+            </a>
+              
       </div>
         <div className="project-description erudition">
           <h3>INDEPENDENT</h3>

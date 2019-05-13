@@ -38,7 +38,7 @@ padding: 0 50px 0 50px;
     }
     
     a {
-      color: ${aquaRegular};
+      color: ${aquaDark};
       transition: 150ms ease-in;
       &:hover {
         border-bottom: 0.1rem solid white;
@@ -98,7 +98,7 @@ export const Project = styled.section`
     /* project title */
     h2 {
       margin-top:0;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       font-size: 3.5rem;
       font-weight: 700;
       color: ${aquaDark};
@@ -106,6 +106,15 @@ export const Project = styled.section`
         font-size: 2.5rem;
         line-height: 3rem;
       }
+    }
+
+    /* project role*/
+    h4{
+      margin: 0;
+      color: #bcbac1;
+
+
+
     }
     /* project mini description */
     p {
@@ -137,7 +146,7 @@ export const Project = styled.section`
 
     .long-description2 {
       width: 50%;
-      margin: 0;
+      
       @media (max-width: 1111px) {
       }
       @media (max-width: 610px) {

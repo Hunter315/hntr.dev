@@ -45,10 +45,20 @@ export const HeroContainer = styled.section`
     linear-gradient(transparent, #151218)
   }
   .drop-down-icon {
+    z-index: 10;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    bottom: 5%;
+    a{
+      display: flex;
+      flex-flow:column
+
+    }
     img {
       position: absolute;
       bottom: 2rem;
-      left: 50%;
       width: 4.5rem;
       opacity: 0.8;
       cursor: pointer;
