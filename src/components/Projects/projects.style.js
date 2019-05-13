@@ -14,8 +14,17 @@ export const FlexWrap = styled.div`
 display:flex;
 `;
 export const ProjectContainer = styled.section`
-padding: 0 50px 0 50px;
+padding: 0 100px 0 100px;
   background: #151218;
+  @media (max-width: 925px) {
+    padding: 0 50px 0 50px;
+  }
+  @media (max-width: 480px) {
+    padding: 0 20px 0 20px;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+  }
   h1 {
     margin-bottom: 3rem;
     ${headingStyle}
@@ -34,7 +43,7 @@ padding: 0 50px 0 50px;
       line-height: 3rem;
     }
     @media (max-width: 450px) {
-     width: 80%;
+    
     }
     
     a {
@@ -76,6 +85,9 @@ export const Project = styled.section`
     padding: 0.5rem 0;
     @media (max-width: 610px) {
       width: 100%;
+    }
+    @media (max-width: 480px) {
+      text-align: center
     }
     /* project team category */
     h3 {
@@ -150,8 +162,9 @@ export const Project = styled.section`
       @media (max-width: 1111px) {
       }
       @media (max-width: 610px) {
+        width: 100%;
       }
-      @media (max-width: 450px) {
+      @media (max-width: 480px) {
         width: 100%
       }
       @media (max-width: 345px) {
@@ -167,7 +180,7 @@ export const Project = styled.section`
       text-transform: uppercase;
       letter-spacing: 0.3rem;
       z-index: 1;
-      @media (max-width: 450px) {
+      @media (max-width: 480px) {
         display:flex;
         flex-flow: column;
         
@@ -192,7 +205,7 @@ export const Project = styled.section`
         @media (max-width: 755px) {
           padding: 0.5rem 2.8rem;
         }
-        @media (max-width: 450px) {
+        @media (max-width: 480px) {
           margin-bottom: 1rem;
          }
       }
@@ -217,7 +230,7 @@ export const Project = styled.section`
       text-transform: uppercase;
       letter-spacing: 0.3rem;
       z-index: 1;
-      @media (max-width: 450px) {
+      @media (max-width: 480px) {
         display:flex;
         flex-flow: column;
         
@@ -242,7 +255,7 @@ export const Project = styled.section`
         @media (max-width: 755px) {
           padding: 0.5rem 2.8rem;
         }
-        @media (max-width: 450px) {
+        @media (max-width: 480px) {
           margin-bottom: 1rem;
          }
       }

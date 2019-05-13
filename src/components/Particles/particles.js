@@ -20,6 +20,7 @@ class Particles extends React.Component {
     let radius = 1;
 
     var colors = ["#2fefbc", "white", "#151218", "#25b28c", "#747475"];
+    // var colors = ["white", "white", "white", "white", "white"];
 
     var copy = inputRef;
 

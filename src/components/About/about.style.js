@@ -11,14 +11,21 @@ export const AboutContainer = styled.section`
   ${flex("space-between", "center")}
   height: 80vh;
   background: #151218;
-  padding: 100px 50px 0 50px;
-  @media (max-width: 800px) {
+  padding: 100px 100px 0 100px;
+  @media (max-width: 925px) {
     height: auto;
-    padding: 50px 50px 0 50px;
+    padding: 100px 50px 0 50px;
   }
   @media (max-width: 650px) {
     height: auto;
     padding: 100px 50px 0 50px;
+  }
+  @media (max-width: 480px) {
+    height: auto;
+    padding: 100px 20px 0 20px;
+    display:flex;
+    flex-flow: column;
+    align-items:center;
   }
 `;
 
@@ -33,22 +40,29 @@ width: 50%;
   h1 {
     margin: 0;
     ${headingStyle}
+    @media (max-width: 480px) {
+      text-align: center;
+    }
   }
   .ul-list {
     display: flex;
     flex-flow: column wrap;
     height: 260px;
-    
+    padding-left:20px;
     box-sizing: border-box;
     counter-reset: li; /* Initiate a counter */
     list-style: none; /* Remove default numbering */
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
     font: 15px 'trebuchet MS', 'lucida sans';
-    padding: 0;
     margin-bottom: 4em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
-    @media (max-width: 800px) {
+    @media (max-width: 1130px) {
       height: 370px;
+    }
+    @media (max-width: 480px) {
+      display:flex;
+      flex-flow: column wrap;
+      align-items:center;
     }
     li{
       position: relative;
