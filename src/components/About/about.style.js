@@ -134,9 +134,10 @@ export const AboutImage = styled.div`
   img {
     width: 60%;
     height: auto;
+    opacity: 0.6
     border-radius:50%;
     &:hover {
-      opacity: 0.7;
+      opacity: 0.8;
     }
   }
   .secondary-headline {
