@@ -45,7 +45,7 @@ class Particles extends React.Component {
       this.vy = (Math.random() - 0.5) * 20;
       this.accX = 0;
       this.accY = 0;
-      this.friction = Math.random() * 0.05 + 0.94;
+      this.friction = Math.random() * 0.0005 + 0.94;
 
       this.color = colors[Math.floor(Math.random() * 6)];
     }
@@ -106,7 +106,7 @@ class Particles extends React.Component {
 
       ctx.font = "bold " + ww / 10 + "px sans-serif";
       ctx.textAlign = "center";
-      ctx.fillText(copy.value, ww / 2, wh / 2); //this is the real one
+      ctx.fillText(copy.value, ww / 2, wh / 2); 
 
       var data = ctx.getImageData(0, 0, ww, wh).data;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
