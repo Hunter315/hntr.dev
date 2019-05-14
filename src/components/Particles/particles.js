@@ -19,8 +19,8 @@ class Particles extends React.Component {
     let mouse = { x: 0, y: 0 };
     let radius = 1;
 
-    var colors = ["#2fefbc", "white", "#25b28c", "#25b28c", "#747475"];
-    // var colors = ["white", "white", "white", "white", "white"];
+    // var colors = ["#2fefbc", "white", "#25b28c", "#25b28c", "#747475"];
+    var colors = ["white", "white", "white", "white", "white"];
 
     var copy = inputRef;
 
@@ -106,6 +106,11 @@ class Particles extends React.Component {
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+      // const p = new Path2D("M489,255.9c0-0.2,0-0.5,0-0.7c0-1.6,0-3.2-0.1-4.7c0-0.9-0.1-1.8-0.1-2.8  c0-0.9-0.1-1.8-0.1-2.7c-0.1-1.1-0.1-2.2-0.2-3.3c0-0.7-0.1-1.4-0.1-2.1c-0.1-1.2-0.2-2.4-0.3-3.6c0-0.5-0.1-1.1-0.1-1.6  c-0.1-1.3-0.3-2.6-0.4-4c0-0.3-0.1-0.7-0.1-1C474.3,113.2,375.7,22.9,256,22.9S37.7,113.2,24.5,229.5c0,0.3-0.1,0.7-0.1,1  c-0.1,1.3-0.3,2.6-0.4,4c-0.1,0.5-0.1,1.1-0.1,1.6c-0.1,1.2-0.2,2.4-0.3,3.6c0,0.7-0.1,1.4-0.1,2.1c-0.1,1.1-0.1,2.2-0.2,3.3  c0,0.9-0.1,1.8-0.1,2.7c0,0.9-0.1,1.8-0.1,2.8c0,1.6-0.1,3.2-0.1,4.7c0,0.2,0,0.5,0,0.7c0,0,0,0,0,0.1s0,0,0,0.1c0,0.2,0,0.5,0,0.7  c0,1.6,0,3.2,0.1,4.7c0,0.9,0.1,1.8,0.1,2.8c0,0.9,0.1,1.8,0.1,2.7c0.1,1.1,0.1,2.2,0.2,3.3c0,0.7,0.1,1.4,0.1,2.1  c0.1,1.2,0.2,2.4,0.3,3.6c0,0.5,0.1,1.1,0.1,1.6c0.1,1.3,0.3,2.6,0.4,4c0,0.3,0.1,0.7,0.1,1C37.7,398.8,136.3,489.1,256,489.1  s218.3-90.3,231.5-206.5c0-0.3,0.1-0.7,0.1-1c0.1-1.3,0.3-2.6,0.4-4c0.1-0.5,0.1-1.1,0.1-1.6c0.1-1.2,0.2-2.4,0.3-3.6  c0-0.7,0.1-1.4,0.1-2.1c0.1-1.1,0.1-2.2,0.2-3.3c0-0.9,0.1-1.8,0.1-2.7c0-0.9,0.1-1.8,0.1-2.8c0-1.6,0.1-3.2,0.1-4.7  c0-0.2,0-0.5,0-0.7C489,256,489,256,489,255.9C489,256,489,256,489,255.9z")
+      // ctx.stroke(p);
+      // ctx.fill(p)
+
+
       ctx.font = "bold " + ww / 10 + "px sans-serif";
       ctx.textAlign = "center";
       ctx.fillText(copy.value, ww / 2, wh / 2); 
@@ -171,7 +176,7 @@ class Particles extends React.Component {
     const inputStyle= {
         position: "absolute",
         width: "100%",
-        bottom: "25%",
+        bottom: "20%",
         textAlign: "center",
         zIndex:"6"
     }
@@ -189,8 +194,8 @@ class Particles extends React.Component {
             placeholder="Type something here!"
             ref="copy"
           />
-          <p style={{ display: "inline-block", fontSize: "1.3rem", color: "#bcbac1", maxWidth: "632px", lineHeight: "1.8rem", userSelect: "none"}}>
-          I'm Hunter Smith - I create ideas and solve problems.<br />Check out my projects below and see what I can do!
+          <p style={{ display: "inline-block", fontSize: "2.3rem", color: "#bcbac1", maxWidth: "830px", lineHeight: "3.4rem", userSelect: "none"}}>
+          I'm Hunter Smith - I innovate and solve problems.<br />Check out my projects below and see what I can do!
           
           </p>
         </div>
