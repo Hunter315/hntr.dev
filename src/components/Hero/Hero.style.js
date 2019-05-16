@@ -50,7 +50,7 @@ export const HeroContainer = styled.section`
     display:flex;
     justify-content: center;
     position:absolute;
-    bottom: 5%;
+    bottom: 0%;
     a{
       display: flex;
       flex-flow:column
